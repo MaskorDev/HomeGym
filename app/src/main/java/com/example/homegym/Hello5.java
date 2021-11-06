@@ -43,11 +43,7 @@ Button next;
                 .setMessage(messege)
                 .setCancelable(false)
                 .setNegativeButton("Ok",
-                        new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int id) {
-                                dialog.cancel();
-                            }
-                        });
+                        (dialog, id) -> dialog.cancel());
         AlertDialog alert = builder.create();
         alert.show();
     }
