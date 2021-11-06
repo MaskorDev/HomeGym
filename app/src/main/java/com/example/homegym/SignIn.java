@@ -6,7 +6,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -40,7 +39,7 @@ DBHelper DB;
         signIn.setOnClickListener(v -> {
             if (check_result() == true) {
                 Toast.makeText(getApplicationContext(), "Успешный вход", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(SignIn.this, Activity.class);
+                Intent intent = new Intent(SignIn.this, Menu.class);
                 startActivity(intent);
                 finish();
             }

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <Button
+        android:id="@+id/Start"
+        android:layout_width="263dp"
+        android:layout_height="263dp"
+        android:background="@drawable/designbut"
+        android:fontFamily="@font/astroneer"
+        android:onClick="Start"
+        android:text="Tap"
+        android:textAllCaps="false"
+        android:textColor="@color/blue"
+        android:textSize="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.576" />
+
+    <Button
+        android:id="@+id/Stop"
+        android:layout_width="312dp"
+        android:layout_height="50dp"
+        android:background="@drawable/designbut"
+        android:fontFamily="@font/astroneer"
+        android:text="Stop"
+        android:onClick="Stop"
+        android:textAllCaps="false"
+        android:textColor="@color/blue"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.819" />
+
+    <Button
+        android:id="@+id/Reset"
+        android:layout_width="312dp"
+        android:layout_height="50dp"
+        android:background="@drawable/designbut"
+        android:fontFamily="@font/astroneer"
+        android:text="Reset"
+        android:onClick="Reset"
+        android:textAllCaps="false"
+        android:textColor="@color/blue"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.91" />
+
+    <TextView
+        android:id="@+id/Time"
+        android:layout_width="379dp"
+        android:layout_height="150dp"
+        android:fontFamily="@font/astroneer"
+        android:gravity="center"
+        android:text="00:00"
+        android:textColor="@color/blue"
+        android:textSize="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.148" />
+</androidx.constraintlayout.widget.ConstraintLayout>
