@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".SignUp">
+
+
+    <Button
+        android:id="@+id/SignUp"
+        android:layout_width="284dp"
+        android:layout_height="50dp"
+        android:background="@drawable/corner"
+        android:fontFamily="@font/astroneer"
+        android:text="Sign Up"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.782" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="235dp"
+        android:layout_height="133dp"
+        android:fontFamily="@font/astroneer"
+        android:text="Home
+        Gym"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24" />
+
+    <EditText
+        android:id="@+id/Login"
+        android:layout_width="312dp"
+        android:layout_height="50dp"
+        android:background="@drawable/design"
+        android:drawableLeft="@drawable/user"
+        android:fontFamily="@font/astroneer"
+        android:hint="  Ivanov"
+        android:paddingLeft="25dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="11dp"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.396" />
+
+    <EditText
+        android:id="@+id/Mail"
+        android:layout_width="312dp"
+        android:layout_height="50dp"
+        android:background="@drawable/design"
+        android:drawableLeft="@drawable/mail"
+        android:fontFamily="@font/astroneer"
+        android:hint="  Ivanov@mail.ru"
+        android:paddingLeft="23dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="11dp"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.484" />
+
+    <EditText
+        android:id="@+id/Pass"
+        android:layout_width="312dp"
+        android:layout_height="50dp"
+        android:background="@drawable/design"
+        android:drawableLeft="@drawable/pass"
+        android:fontFamily="@font/astroneer"
+        android:hint="  •••••••"
+        android:password="true"
+        android:paddingLeft="25dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="11dp"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.577"></EditText>
+
+    <EditText
+        android:id="@+id/RePass"
+        android:layout_width="312dp"
+        android:layout_height="50dp"
+        android:background="@drawable/design"
+        android:drawableLeft="@drawable/pass"
+        android:fontFamily="@font/astroneer"
+        android:hint="  •••••••"
+        android:password="true"
+        android:paddingLeft="25dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="11dp"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666"></EditText>
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/underlinedBack"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.957" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logosign" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
