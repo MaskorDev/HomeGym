@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".Hello5">
+
+    <Button
+        android:id="@+id/NextBut"
+        android:layout_width="284dp"
+        android:layout_height="77dp"
+        android:background="@drawable/corner"
+        android:fontFamily="@font/astroneer"
+        android:text="Next"
+        android:onClick="onCLick"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.906" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="234dp"
+        android:layout_height="73dp"
+        android:fontFamily="@font/astroneer"
+        android:text="Step 5/5"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.179" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="308dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="22dp"
+        android:fontFamily="@font/astroneer"
+        android:text="What’s your height and weight? "
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.301">
+    </TextView>
+
+    <EditText
+        android:id="@+id/Height"
+        android:layout_width="312dp"
+        android:layout_height="50dp"
+        android:textSize="24dp"
+        android:inputType="number"
+        android:fontFamily="@font/astroneer"
+        android:background="@drawable/design"
+        android:hint="Height"
+        android:paddingTop="15dp"
+        android:paddingLeft="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.467" />
+
+
+    <EditText
+        android:id="@+id/Weight"
+        android:layout_width="312dp"
+        android:layout_height="50dp"
+        android:background="@drawable/design"
+        android:fontFamily="@font/astroneer"
+        android:hint="Weight"
+        android:inputType="number"
+        android:paddingLeft="25dp"
+        android:paddingTop="15dp"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.581">
+    </EditText>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
