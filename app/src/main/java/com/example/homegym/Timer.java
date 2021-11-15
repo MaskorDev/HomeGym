@@ -9,19 +9,18 @@ import android.widget.TextView;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.Timer;
 import java.util.TimerTask;
 
-public class Menu extends AppCompatActivity {
+public class Timer extends AppCompatActivity {
 Button start, stop, reset;
 TextView time;
 int mCurrentPeriod = 0;
-private Timer myTimer;
+private java.util.Timer myTimer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu);
+        setContentView(R.layout.activity_timer);
 
         start = findViewById(R.id.Start);
         stop = findViewById(R.id.Stop);
@@ -31,7 +30,7 @@ private Timer myTimer;
 
     public void Start(View view){
         start.setEnabled(false);
-        myTimer = new Timer();
+        myTimer = new java.util.Timer();
         myTimer.schedule(new TimerTask() {
             @Override
             public void run() {

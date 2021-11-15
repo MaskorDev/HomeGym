@@ -39,10 +39,16 @@ DBHelper DB;
         signIn.setOnClickListener(v -> {
             if (check_result() == true) {
                 Toast.makeText(getApplicationContext(), "Успешный вход", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(SignIn.this, Menu.class);
+                Intent intent = new Intent(SignIn.this, MainMenu.class);
                 startActivity(intent);
                 finish();
             }
+        });
+
+        skip.setOnClickListener(v -> {
+            Intent mainMenu = new Intent(SignIn.this, MainMenu.class);
+            startActivity(mainMenu);
+            finish();
         });
     }
 

@@ -10,7 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
-            android:name=".Menu"
+            android:name=".BottomNavigaton"
+            android:exported="false"
+            android:label="@string/title_activity_bottom_navigaton" />
+        <activity
+            android:name=".MainMenu"
+            android:exported="false" />
+        <activity
+            android:name=".Timer"
             android:exported="false" />
         <activity
             android:name=".SignUp"

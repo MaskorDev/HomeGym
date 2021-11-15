@@ -10,8 +10,10 @@
         <entry key="..\:/Users/sourc/AndroidStudioProjects/HomeGym/app/src/main/res/drawable/design.xml" value="0.3828125" />
         <entry key="..\:/Users/sourc/AndroidStudioProjects/HomeGym/app/src/main/res/drawable/designbord.xml" value="0.3828125" />
         <entry key="..\:/Users/sourc/AndroidStudioProjects/HomeGym/app/src/main/res/drawable/designbut.xml" value="0.3828125" />
+        <entry key="..\:/Users/sourc/AndroidStudioProjects/HomeGym/app/src/main/res/drawable/gradient.xml" value="0.21041666666666667" />
         <entry key="..\:/Users/sourc/AndroidStudioProjects/HomeGym/app/src/main/res/drawable/splashscreen.xml" value="0.3828125" />
         <entry key="..\:/Users/sourc/AndroidStudioProjects/HomeGym/app/src/main/res/layout/activity_.xml" value="0.20244565217391305" />
+        <entry key="..\:/Users/sourc/AndroidStudioProjects/HomeGym/app/src/main/res/layout/activity_bottom_navigaton.xml" value="0.184375" />
         <entry key="..\:/Users/sourc/AndroidStudioProjects/HomeGym/app/src/main/res/layout/activity_hello1.xml" value="0.33" />
         <entry key="..\:/Users/sourc/AndroidStudioProjects/HomeGym/app/src/main/res/layout/activity_hello2.xml" value="0.22" />
         <entry key="..\:/Users/sourc/AndroidStudioProjects/HomeGym/app/src/main/res/layout/activity_hello3.xml" value="0.31521739130434784" />
@@ -21,9 +23,11 @@
         <entry key="..\:/Users/sourc/AndroidStudioProjects/HomeGym/app/src/main/res/layout/activity_hello5.xml" value="0.25" />
         <entry key="..\:/Users/sourc/AndroidStudioProjects/HomeGym/app/src/main/res/layout/activity_launch.xml" value="0.25" />
         <entry key="..\:/Users/sourc/AndroidStudioProjects/HomeGym/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
-        <entry key="..\:/Users/sourc/AndroidStudioProjects/HomeGym/app/src/main/res/layout/activity_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/sourc/AndroidStudioProjects/HomeGym/app/src/main/res/layout/activity_main_menu.xml" value="0.43144424131627057" />
+        <entry key="..\:/Users/sourc/AndroidStudioProjects/HomeGym/app/src/main/res/layout/activity_menu.xml" value="0.25" />
         <entry key="..\:/Users/sourc/AndroidStudioProjects/HomeGym/app/src/main/res/layout/activity_sign_in.xml" value="0.33" />
         <entry key="..\:/Users/sourc/AndroidStudioProjects/HomeGym/app/src/main/res/layout/activity_sign_up.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/sourc/AndroidStudioProjects/HomeGym/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
       </map>
     </option>
   </component>
