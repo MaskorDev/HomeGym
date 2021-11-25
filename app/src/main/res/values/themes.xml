@@ -26,4 +26,10 @@
     <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MySwitch" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorControlActivated">@color/blue</item>
+        <item name="colorSwitchThumbNormal">@color/white</item>
+        <item name="android:colorForeground">#a7a7a7</item>
+    </style>
 </resources>

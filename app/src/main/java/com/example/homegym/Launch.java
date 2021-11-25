@@ -12,7 +12,7 @@ public class Launch extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_launch);
 
-        Intent intent = new Intent(this, Hello1.class);
+        Intent intent = new Intent(this, MainMenu.class);
         startActivity(intent);
         finish();
     }
